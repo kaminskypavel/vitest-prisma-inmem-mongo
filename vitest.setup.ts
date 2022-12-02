@@ -20,4 +20,6 @@ export default async function () {
 
   const uri = mongodRepl.getUri();
   console.log("MongoDB URI: ", uri);
+
+  return () => mongodRepl.stop();
 }
