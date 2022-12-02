@@ -7,7 +7,7 @@
     "strict": true,
     "lib": ["esnext"],
     "esModuleInterop": true,
-    "types": ["vitest", "node"]
+    "types": ["vitest", "node", "jest"]
   },
   "exclude": ["dist"],
   "include": ["src"]

@@ -1,3 +1,5 @@
+jest guide <https://nodkz.github.io/mongodb-memory-server/docs/guides/integration-examples/test-runners>
+
 # Notes
 
 a migrated version of prisma mongo example with integration testing using vitest instead of jest

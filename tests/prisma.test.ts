@@ -1,7 +1,6 @@
-import { PrismaClient } from '@prisma/client'
-import { describe, beforeAll, afterAll, expect, test } from "vitest";
+import { PrismaClient } from "@prisma/client";
 export const prisma = new PrismaClient();
-
+console.log(3333, process.env.MONGO_URI, process.env.DATABASE_URL);
 describe("example test with Prisma Client", () => {
   beforeAll(async () => {
     await prisma.post.deleteMany({});
