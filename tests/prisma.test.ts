@@ -69,6 +69,9 @@ describe("example test with Prisma Client", () => {
     expect(user.posts[0].authorId).toEqual(user.id);
     expect(user.posts[0].views).toEqual(0);
     expect(user.posts[0].id).toBeTruthy();
+    expect(user.posts[0].title).toBe(
+      "Bringing value to users with rapid deployment using Prisma"
+    );
     userId = user.id;
     postId = user.posts[0].id;
   });
